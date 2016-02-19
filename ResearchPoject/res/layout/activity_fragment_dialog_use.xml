@@ -3,19 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    <Button 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="继承DialogFragment，重写onCreateView方法 "
+
+    <Button
         android:id="@+id/id_fmd_activity_btn_one"
-        android:onClick="BtnOnClicks"
-        />
-    <Button 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="在DialogFragment中的onCreateDialog用AlertDialog来创建一个登录的对话框"
-        android:id="@+id/id_fmd_activity_btn_two"
         android:onClick="BtnOnClicks"
-        />
+        android:text="继承DialogFragment，重写onCreateView方法 " />
+
+    <Button
+        android:id="@+id/id_fmd_activity_btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BtnOnClicks"
+        android:text="在DialogFragment中的onCreateDialog用AlertDialog来创建一个登录的对话框" />
+
+    <Button
+        android:id="@+id/id_fmd_activity_btn_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BtnOnClicks"
+        android:text="大屏幕上以对话框的形式展示，而小屏幕上则直接嵌入当前的Actvity中" />
+
+    <FrameLayout
+        android:id="@+id/id_ly"
+        android:layout_width="fill_parent"	
+        android:layout_height="fill_parent" >
+    </FrameLayout>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.researchpoject.fragment;
+package com.example.researchpoject.dialogfragment;
 
 import com.example.researchpoject.R;
 
@@ -14,8 +14,11 @@ public class EditNameDialogFragment extends DialogFragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// 去掉Dialog的标题
-		getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
-		View view = inflater.inflate(R.layout.fragment_edit_name, container);
+		if ("yes".equals(getResources().getString(R.string.large_layout))) {
+			getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
+		}
+		View view = inflater.inflate(R.layout.fragment_edit_name, container,
+				false);//不设置为False容易出问题 当把dialog当做view直接放layout里面replace
 		return view;
 	}
 }

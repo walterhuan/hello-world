@@ -1,4 +1,4 @@
-package com.example.researchpoject.fragment;
+package com.example.researchpoject.dialogfragment;
 
 import com.example.researchpoject.R;
 
@@ -10,7 +10,13 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
-
+/**
+ * 传统的new AlertDialog在屏幕旋转时，第一不会保存用户输入的值，第二还会报异常，
+ * 因为Activity销毁前不允许对话框未关闭。
+ * 而通过DialogFragment实现的对话框则可以完全不必考虑旋转的问题。
+ * @author Walter
+ *
+ */
 public class LoginDialogFragment extends DialogFragment {
 	
 	private EditText mUserName;
