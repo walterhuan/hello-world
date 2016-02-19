@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- common -->
+	<!-- 登录 -->
+    <color name="login_area_lateral">#cc0d325e</color>
+    <color name="login_area_inner">#aa215182</color>
+    
+    <color name="add_area_bg_color">#66FFFFFF</color>
+    <color name="add_btn_start_color">#FEC20E</color>
+    <color name="add_btn_end_color">#FFD55A</color>
+    <color name="list_item_sel_color">#DFDFDF</color>
+    
+    <color name="layout_background_start_color">#ffe0ebf2</color>
+	<color name="layout_background_border">#ffa3a3a3</color>
+	<color name="layout_background_selected_end_color">#ff82a9f8</color>
+	<color name="layout_background_selected_start_color">#ff4372d6</color>
+	<color name="myblue">#0000FF</color>
+	<color name="red">#ffff0000</color>
+	<color name="item_selected">#FFffbb33</color>
+	
+	    
+    
+    <style name="myTheme" parent="android:Theme.Holo.NoActionBar">
+	</style>
+    <style name="text_style" parent="android:Theme.Holo.Light" >
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">20sp</item>
+	</style>
+	<style name="AppTheme" parent="android:Theme.Holo.Light" />
+    
+</resources>

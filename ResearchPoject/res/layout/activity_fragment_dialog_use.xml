@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="继承DialogFragment，重写onCreateView方法 "
+        android:id="@+id/id_fmd_activity_btn_one"
+        android:onClick="BtnOnClicks"
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="在DialogFragment中的onCreateDialog用AlertDialog来创建一个登录的对话框"
+        android:id="@+id/id_fmd_activity_btn_two"
+        android:onClick="BtnOnClicks"
+        />
+
+</LinearLayout>
