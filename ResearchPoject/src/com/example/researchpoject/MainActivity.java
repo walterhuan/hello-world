@@ -57,6 +57,9 @@ public class MainActivity extends Activity {
 				startActivity(it4);
 				break;
 				
+			case 4:// Android 屏幕旋转 处理 AsyncTask 和 ProgressDialog 
+				Intent it5=new Intent(mctx,AsynTaskAndProgressDialogActivity.class);
+				startActivity(it5);
 			}
 
 		}

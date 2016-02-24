@@ -30,6 +30,22 @@
         <activity 
             android:name="com.example.researchpoject.FragmentDialogActivity"
             ></activity>
+        <activity 
+            android:name="com.example.researchpoject.AsynTaskAndProgressDialogActivity"
+            ></activity>
+        <activity 
+            android:name="com.example.researchpoject.SavedInstanceStateUsingActivity"
+            ></activity>
+        <activity 
+            android:name="com.example.researchpoject.FragmentRetainDataActivity"
+            ></activity>
+        <activity 
+            android:name="com.example.researchpoject.ConfigChangesTestActivity"
+            android:configChanges="screenSize|orientation"
+            ></activity>
+         <activity 
+            android:name="com.example.researchpoject.FixProblemActivity"
+            ></activity>
         
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
