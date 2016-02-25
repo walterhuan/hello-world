@@ -46,7 +46,16 @@
          <activity 
             android:name="com.example.researchpoject.FixProblemActivity"
             ></activity>
+         <activity 
+            android:name="com.example.researchpoject.FragmentCreateOnceActivity"
+            ></activity>
+         <activity
+            android:name="com.example.researchpoject.fragmentshouldkonw.ListTitleActivity"
+            ></activity>
         
+        <activity
+            android:name="com.example.researchpoject.ui.fragmentlistdetail.FragmentListDetailActivity"                         
+            ></activity>
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

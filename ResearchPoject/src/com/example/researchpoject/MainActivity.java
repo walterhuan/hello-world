@@ -1,6 +1,9 @@
 package com.example.researchpoject;
 
 import com.example.researchpoject.adapter.MainAdapter;
+import com.example.researchpoject.fragmentshouldkonw.ListTitleActivity;
+import com.example.researchpoject.fragmentshouldkonw.ListTitleFragment;
+import com.example.researchpoject.ui.fragmentlistdetail.FragmentListDetailActivity;
 import com.example.researchpoject.utils.UtilsConstant;
 
 import android.net.Uri;
@@ -60,6 +63,19 @@ public class MainActivity extends Activity {
 			case 4:// Android 屏幕旋转 处理 AsyncTask 和 ProgressDialog 
 				Intent it5=new Intent(mctx,AsynTaskAndProgressDialogActivity.class);
 				startActivity(it5);
+				break;
+			case 5://FragmentCreateOnceActivity 屏幕旋转只创建一次Fragment
+				Intent it6=new Intent(mctx,FragmentCreateOnceActivity.class);
+				startActivity(it6);
+				break;
+			case 6://FragmentActivity与回传值
+				Intent it7=new Intent(mctx,ListTitleActivity.class);
+				startActivity(it7);
+				break;
+			case 7://fragment list  detail
+				Intent it8=new Intent(mctx,FragmentListDetailActivity.class);
+				startActivity(it8);
+				break;
 			}
 
 		}
