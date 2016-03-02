@@ -5,6 +5,7 @@ import com.example.researchpoject.fragmentshouldkonw.ListTitleActivity;
 import com.example.researchpoject.fragmentshouldkonw.ListTitleFragment;
 import com.example.researchpoject.ui.fragmentlistdetail.FragmentListDetailActivity;
 import com.example.researchpoject.utils.UtilsConstant;
+import com.example.researchpoject.volley.VolleyTestOne;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -76,6 +77,9 @@ public class MainActivity extends Activity {
 				Intent it8=new Intent(mctx,FragmentListDetailActivity.class);
 				startActivity(it8);
 				break;
+			case 8://VolleyTestOne 
+				Intent it9=new Intent(mctx,VolleyTestOne.class);
+				startActivity(it9);
 			}
 
 		}
